@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="18dp"
+        android:onClick="chooseCity"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/city_tbilisi"></TextView>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="18dp"
+        android:onClick="chooseCity"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/city_telavi"></TextView>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="18dp"
+        android:onClick="chooseCity"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/city_qutaisi"></TextView>
+
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="18dp"
+        android:onClick="chooseCity"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/city_batumi"></TextView>
+
+</LinearLayout>

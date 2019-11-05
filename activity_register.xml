@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="Registration"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_marginTop="20dp"
+        android:hint="First name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:id="@+id/last_name"
+        android:hint="Last name"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/username"
+        android:hint="Username"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/city"
+            android:hint="City"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Choose City"
+            android:onClick="chooseCity"
+            android:layout_height="match_parent"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/sex"
+            android:hint="Sex"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Choose Sex"
+            android:onClick="chooseSex"
+            android:layout_height="match_parent"></Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:text="Register"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
